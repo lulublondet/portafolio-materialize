@@ -18,6 +18,17 @@ body, html {
 	text-transform: uppercase;
 }
 
+.justify-center{
+	text-align: justify;
+	-moz-text-align-last: center;
+			text-align-last: center;
+}
+
+.bg-profile {
+	width: 100%;
+	padding: 25px;
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
 	.header {
@@ -27,7 +38,7 @@ body, html {
 	.header h1 {
 		font-size: 3.5rem;
 	}
-	
+
 	.header span {
 		font-size: 1rem;
 	}
