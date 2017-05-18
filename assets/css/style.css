@@ -1,3 +1,42 @@
-body, html {
+body, html,img {
 	background-color: #EDEDED !important;
+	box-sizing: border-box;
+	margin:0;
+	padding:0; 
+}
+
+
+.container .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.row .row{
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.col{
+	height:170px; 
+}
+
+
+img {
+	width: 318.72px;
+	height:170px;  
+}
+
+
+.s4:nth-child(1){
+	padding-left: 0;
+	padding-right: 0; 
+}
+
+.s4:nth-child(2){
+	padding-left: 0;
+}
+
+.s4:nth-child(3){
+	padding-left:0; 
 }
