@@ -18,10 +18,9 @@ body, html {
 	text-transform: uppercase;
 }
 
-.justify-center{
-	text-align: justify;
-	-moz-text-align-last: center;
-			text-align-last: center;
+hr {
+	width: 40px;
+  margin: 15px auto;
 }
 
 .mb-50 {
@@ -36,14 +35,27 @@ body, html {
 	margin-top: 124px;
 }
 
+.card-action a:hover {
+	color: #ffd180;
+}
+
+.icon-avatar {
+	width: 65px;
+	height: 65px;
+	border-radius: 35px;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
 	.header {
 		height: 475px;
+		background-size: 1300px 700px;
 	}
 
 	.header h1 {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.header span {
