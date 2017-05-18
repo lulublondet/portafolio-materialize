@@ -24,13 +24,16 @@ body, html {
 			text-align-last: center;
 }
 
-.bg-profile {
-	width: 100%;
-	padding: 15px 25px;
-}
-
 .mb-50 {
 	margin-bottom: 50px;
+}
+
+.font-300 {
+	font-weight: 300;
+}
+
+.about {
+	margin-top: 124px;
 }
 
 /*Mobile*/
