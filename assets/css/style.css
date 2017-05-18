@@ -1,3 +1,6 @@
 body, html {
 	background-color: #EDEDED !important;
 }
+hr {
+	width: 40px;
+}
