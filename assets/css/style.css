@@ -4,3 +4,6 @@ body, html {
 hr {
 	width: 40px;
 }
+.bold {
+	font-weight: 500;
+}
