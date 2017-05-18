@@ -10,17 +10,15 @@ body, html {
 }
 
 .header span {
-	padding: 4px 10px;
+	padding: 6px 10px;
+	font-size: 1.3rem;
 }
 
 .uppercase {
 	text-transform: uppercase;
 }
 
-.bold-600 {
-	font-weight: 600;
-}
-
+/*Mobile*/
 @media (max-width: 768px) {
 	.header {
 		height: 475px;
@@ -29,4 +27,9 @@ body, html {
 	.header h1 {
 		font-size: 3.5rem;
 	}
+	
+	.header span {
+		font-size: 1rem;
+	}
+
 }
