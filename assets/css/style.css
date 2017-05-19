@@ -1,4 +1,3 @@
-
 body, html {
 	box-sizing: border-box;
 	margin: 0;
@@ -24,20 +23,10 @@ hr {
 	font-weight: 300;
 }
 
-
-.bold {
-	font-weight: 500;
-}
-
-.margin-0{
-	margin: 0;
-}
-
-
 /*Estilos de la seccion del header */
 .header {
 	width: 100%;
-	height: 587px;
+	height: 650px;
 	background: url("../img/bg.jpg") no-repeat center;
 	background-size: cover;
 }
@@ -57,6 +46,7 @@ hr {
 }
 
 .icon-avatar {
+	background: url('../img/monica.png') round;
 	width: 65px;
 	height: 65px;
 	border-radius: 35px;
@@ -86,9 +76,8 @@ section.portafolio {
 .col.s4.img4,
 .col.s4.img5,
 .col.s4.img6 {
-		background-repeat: no-repeat;
+		background: no-repeat center center;
 		background-size: cover;
-		background-position: center center;
 		height: 170px;
 	}
 
@@ -97,11 +86,11 @@ section.portafolio {
 }
 
 .col.s4.img2 {
-	background-image: url(../img/consola.jpg);
+	background-image: url('../img/consola.jpg');
 }
 
 .col.s4.img3{
-	background-image: url(../img/desk-book.jpg);
+	background-image: url('../img/desk-book.jpg');
 }
 
 .col.s4.img4{
@@ -112,21 +101,25 @@ section.portafolio {
 	background-image: url('../img/girl-code.jpg');
 }
 
-
 .col.s4.img6{
 	background-image: url('../img/img-1.jpg');
 }
+
 
 /*Estilos de la seccion contact y footer */
 .section-contact {
 	margin-top: 80px;
 }
+
 footer.page-footer {
 	padding-top: 0;
 	margin-top: 42px;
   background-color: #607d8b;
 }
 
+footer.page-footer .footer-copyright {
+    min-height: 60px;
+}
 
 /*Mobile*/
 @media (max-width: 768px) {
