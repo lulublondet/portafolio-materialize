@@ -1,3 +1,66 @@
-body, html {
-	background-color: #EDEDED !important;
+/*body, h1, h5, hr {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} */
+
+section.portafolio {
+	
+	background-color:white;
+	padding-top:4em;
+	height: 587px;
 }
+
+.row {
+	margin-bottom:4em; 
+
+}
+
+.col.s4{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.col.s4.img1,
+.col.s4.img2,
+.col.s4.img3,
+.col.s4.img4,
+.col.s4.img5,
+.col.s4.img6 {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 170px;
+	}
+
+.col.s4.img1 {
+		background-image: url('../img/code.jpg');	
+} 
+
+.col.s4.img2 {
+	background-image: url(../img/consola.jpg);
+}
+
+.col.s4.img3{
+	background-image: url(../img/desk-book.jpg);
+}
+
+.col.s4.img4{
+	background-image: url('../img/desk-code.jpg');
+}
+
+.col.s4.img5{
+	background-image: url('../img/girl-code.jpg');
+}
+
+
+.col.s4.img6{
+	background-image: url('../img/img-1.jpg');
+}
+
+
+
+
+
+
+
