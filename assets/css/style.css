@@ -1,20 +1,78 @@
-/*body, h1, h5, hr {
+
+body, html {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-} */
-
-section.portafolio {
-	
-	background-color:white;
-	padding-top:4em;
-	height: 587px;
+	background-color: #EDEDED !important;
 }
 
-<<<<<<< HEAD
-.row {
-	margin-bottom:4em; 
+/*Estilos reutilizables*/
+.uppercase {
+	text-transform: uppercase;
+}
 
+hr {
+	width: 40px;
+  margin: 15px auto;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.font-300 {
+	font-weight: 300;
+}
+
+
+.bold {
+	font-weight: 500;
+}
+
+.margin-0{
+	margin: 0;
+}
+
+
+/*Estilos de la seccion del header */
+.header {
+	width: 100%;
+	height: 587px;
+	background: url("../img/bg.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.header span {
+	padding: 6px 10px;
+	font-size: 1.3rem;
+}
+
+/*Estilos de la sección about me */
+.about {
+	margin-top: 124px;
+}
+
+.card-action a:hover {
+	color: #ffd180;
+}
+
+.icon-avatar {
+	width: 65px;
+	height: 65px;
+	border-radius: 35px;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+/*Estilos de la seccion portafolio */
+section.portafolio {
+	background-color:white;
+	padding-top:4em;
+	height: 600px;
+}
+
+.row-portafolio {
+	margin-bottom:4em; 
 }
 
 .col.s4{
@@ -59,58 +117,20 @@ section.portafolio {
 	background-image: url('../img/img-1.jpg');
 }
 
-
-
-
-
-
-
-=======
-
-.header {
+/*Estilos de la seccion contact y footer */
+.section-contact {
+	margin-top: 80px;
+}
+footer {
+  position: absolute;
+	margin-top: 68px;
 	width: 100%;
-	height: 587px;
-	background: url("../img/bg.jpg") no-repeat center;
-	background-size: cover;
+	background-color: #607d8b;
+	color: white;
+	height: 72px;
 }
 
-.header span {
-	padding: 6px 10px;
-	font-size: 1.3rem;
-}
 
-.uppercase {
-	text-transform: uppercase;
-}
-
-hr {
-	width: 40px;
-  margin: 15px auto;
-}
-
-.mb-50 {
-	margin-bottom: 50px;
-}
-
-.font-300 {
-	font-weight: 300;
-}
-
-.about {
-	margin-top: 124px;
-}
-
-.card-action a:hover {
-	color: #ffd180;
-}
-
-.icon-avatar {
-	width: 65px;
-	height: 65px;
-	border-radius: 35px;
-	display: block;
-	margin: 0 auto 20px auto;
-}
 
 /*Mobile*/
 @media (max-width: 768px) {
@@ -128,26 +148,6 @@ hr {
 	}
 }
 
-hr {
-	width: 40px;
-	margin: 15px auto;
-}
-.bold {
-	font-weight: 500;
-}
-.section-contact {
-	margin-top: 80px;
-}
-footer {
-  position: absolute;
-	margin-top: 68px;
-	width: 100%;
-	background-color: #607d8b;
-	color: white;
-	height: 72px;
-}
-.margin-0{
-	margin: 0;
 
-}
->>>>>>> 4133795a36aea74aa5f144727a9ef31090d96da8
+
+
