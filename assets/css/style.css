@@ -72,7 +72,7 @@ section.portafolio {
 }
 
 .row-portafolio {
-	margin-bottom:4em; 
+	margin-bottom:4em;
 }
 
 .col.s4{
@@ -93,8 +93,8 @@ section.portafolio {
 	}
 
 .col.s4.img1 {
-		background-image: url('../img/code.jpg');	
-} 
+		background-image: url('../img/code.jpg');
+}
 
 .col.s4.img2 {
 	background-image: url(../img/consola.jpg);
@@ -121,15 +121,11 @@ section.portafolio {
 .section-contact {
 	margin-top: 80px;
 }
-footer {
-  position: absolute;
-	margin-top: 68px;
-	width: 100%;
-	background-color: #607d8b;
-	color: white;
-	height: 72px;
+footer.page-footer {
+	padding-top: 0;
+	margin-top: 42px;
+  background-color: #607d8b;
 }
-
 
 
 /*Mobile*/
@@ -147,7 +143,3 @@ footer {
 		font-size: 1rem;
 	}
 }
-
-
-
-
