@@ -1,52 +1,66 @@
-body, html,img{
-	background-color: #EDEDED !important;
+/*body, h1, h5, hr {
 	box-sizing: border-box;
-	margin:0;
-	padding:0; 
+	margin: 0;
+	padding: 0;
+} */
+
+section.portafolio {
+	
+	background-color:white;
+	padding-top:4em;
+	height: 587px;
 }
 
-div {
-	padding: 0;	
-}
-hr {
-	width: 40px;
-  	margin: 15px auto;
-}
+.row {
+	margin-bottom:4em; 
 
-.container .row{
-	margin-left: 0;
-	margin-right: 0;		
 }
 
 .col.s4{
-	background-color: yellow;	
+	padding-left: 0;
+	padding-right: 0;
 }
 
-
-.col.s4:nth-child(n){
- padding: 0;	
-}
-
-.col.s4:nth-child(2n){
-	padding-left: 0;	
-}
-
-
-img {
-	width:100%;
-	height:50%;
-}
-
-
-.col-width{
-	width:314.75px;	
+.col.s4.img1,
+.col.s4.img2,
+.col.s4.img3,
+.col.s4.img4,
+.col.s4.img5,
+.col.s4.img6 {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 170px;
 	}
 
+.col.s4.img1 {
+		background-image: url('../img/code.jpg');	
+} 
 
-.row-galeria {
-	height: 340px;	
-
+.col.s4.img2 {
+	background-image: url(../img/consola.jpg);
 }
+
+.col.s4.img3{
+	background-image: url(../img/desk-book.jpg);
+}
+
+.col.s4.img4{
+	background-image: url('../img/desk-code.jpg');
+}
+
+.col.s4.img5{
+	background-image: url('../img/girl-code.jpg');
+}
+
+
+.col.s4.img6{
+	background-image: url('../img/img-1.jpg');
+}
+
+
+
+
 
 
 
